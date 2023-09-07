@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "openaidemo_cogsearchfunc": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7029",
+      "launchBrowser": false
+    }
+  }
+}
