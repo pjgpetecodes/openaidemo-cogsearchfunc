@@ -22,7 +22,7 @@ namespace petecodes.openaifunction
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
-            response.WriteString("Welcome to the OpenAI Azure Function!");
+            response.WriteString("Welcome to the OpenAI Azure Function v1.0!");
 
             return response;
         }
